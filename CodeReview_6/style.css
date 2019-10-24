@@ -1,0 +1,95 @@
+body {
+  overflow-x: hidden;
+  font-family: 'Lato', sans-serif;
+  color: #505962; }
+
+/* navigation */
+.navbar {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: .9rem;
+  letter-spacing: .1rem;
+  background-color: rgba(0, 0, 0, 0.8) !important; }
+
+.navbar-brand img {
+  height: 2rem;
+  display: hidden; }
+
+.navbar-brand {
+  height: 2rem;
+  display: hidden; }
+
+.navbar-nav li {
+  padding: .7rem; }
+
+.navbar-dark .navbar-nav .nav-link {
+  padding-top: .8rem; }
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #FE6E00; }
+
+/* landing page css */
+.caption {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 45%;
+  z-index: 1;
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 4rem; }
+
+.caption h1 {
+  font-size: 4rem; }
+
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  background-size: cover;
+  opacity: 0.5; }
+
+.body-section {
+  min-height: 430px; }
+
+.title-section {
+  min-height: 30px; }
+
+@media (max-width: 576px) {
+  .lose-picture {
+    display: none; }
+
+  .card {
+    height: 200px; }
+
+  .row {
+    display: flex;
+    flex-direction: column; }
+
+  .card-title {
+    padding-top: 12px; }
+
+  .title-section {
+    margin: 0 16px; } }
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
+
+/*# sourceMappingURL=style.css.map */
